@@ -1,0 +1,654 @@
+mallu@DESKTOP-4AL6BEB:~$ pwd
+/home/mallu
+mallu@DESKTOP-4AL6BEB:~$ cd /documents
+-bash: cd: /documents: No such file or directory
+mallu@DESKTOP-4AL6BEB:~$ cd /
+mallu@DESKTOP-4AL6BEB:/$ pwd
+/
+mallu@DESKTOP-4AL6BEB:/$ cd ~
+mallu@DESKTOP-4AL6BEB:~$ pwd
+/home/mallu
+mallu@DESKTOP-4AL6BEB:~$ cd ..
+mallu@DESKTOP-4AL6BEB:/home$ pwd
+/home
+mallu@DESKTOP-4AL6BEB:/home$ cd ~
+mallu@DESKTOP-4AL6BEB:~$ pwd
+/home/mallu
+mallu@DESKTOP-4AL6BEB:~$ cd /
+mallu@DESKTOP-4AL6BEB:/$ cd D:\
+> q
+-bash: cd: D:q: No such file or directory
+mallu@DESKTOP-4AL6BEB:/$ cd D:\
+> cd /Git-p
+-bash: cd: too many arguments
+mallu@DESKTOP-4AL6BEB:/$ pwd
+/
+mallu@DESKTOP-4AL6BEB:/$ cd D;\
+> cd/git-p
+-bash: cd: D: No such file or directory
+-bash: cd/git-p: No such file or directory
+mallu@DESKTOP-4AL6BEB:/$ cd d:\
+> cd \git-p
+-bash: cd: too many arguments
+mallu@DESKTOP-4AL6BEB:/$ cd d:\
+> \git-p
+-bash: cd: d:git-p: No such file or directory
+mallu@DESKTOP-4AL6BEB:/$ clera
+-bash: clera: command not found
+mallu@DESKTOP-4AL6BEB:/$ clear
+mallu@DESKTOP-4AL6BEB:/$ mkdir Linux
+mkdir: cannot create directory ‘Linux’: Permission denied
+mallu@DESKTOP-4AL6BEB:/$ pwd
+/
+mallu@DESKTOP-4AL6BEB:/$ mkdir "cool"
+mkdir: cannot create directory ‘cool’: Permission denied
+mallu@DESKTOP-4AL6BEB:/$ cd~
+-bash: cd~: command not found
+mallu@DESKTOP-4AL6BEB:/$ cd ~
+mallu@DESKTOP-4AL6BEB:~$ mk dir cool
+-bash: mk: command not found
+mallu@DESKTOP-4AL6BEB:~$ mkdir cool
+mallu@DESKTOP-4AL6BEB:~$ cd cool
+mallu@DESKTOP-4AL6BEB:~/cool$ ls
+mallu@DESKTOP-4AL6BEB:~/cool$ touch linux.txt
+mallu@DESKTOP-4AL6BEB:~/cool$ ls
+linux.txt
+mallu@DESKTOP-4AL6BEB:~/cool$ cd \
+-bash: cd:  : No such file or directory
+mallu@DESKTOP-4AL6BEB:~/cool$ cd\
+> D:\
+> pwd
+-bash: cdD:pwd: command not found
+mallu@DESKTOP-4AL6BEB:~/cool$ cd /
+
+hi
+mallu@DESKTOP-4AL6BEB:/$ pwd
+/
+mallu@DESKTOP-4AL6BEB:/$ cd ~
+mallu@DESKTOP-4AL6BEB:~$ cd cool
+mallu@DESKTOP-4AL6BEB:~/cool$ cat name.txt
+cat: name.txt: No such file or directory
+mallu@DESKTOP-4AL6BEB:~/cool$ cat>name.txt
+hello world
+^C
+mallu@DESKTOP-4AL6BEB:~/cool$ cat name.txt
+hello world
+mallu@DESKTOP-4AL6BEB:~/cool$ ls
+linux.txt  name.txt
+mallu@DESKTOP-4AL6BEB:~/cool$ cat linux.txt name.txt>foxmerge.txt
+mallu@DESKTOP-4AL6BEB:~/cool$ ls
+foxmerge.txt  linux.txt  name.txt
+mallu@DESKTOP-4AL6BEB:~/cool$ ls *.txt
+foxmerge.txt  linux.txt  name.txt
+mallu@DESKTOP-4AL6BEB:~/cool$ pwd
+/home/mallu/cool
+mallu@DESKTOP-4AL6BEB:~/cool$ cat hp.txt
+cat: hp.txt: No such file or directory
+mallu@DESKTOP-4AL6BEB:~/cool$ cat>hp.txt
+welcome to devops
+^C
+mallu@DESKTOP-4AL6BEB:~/cool$ cp name.txt hp.txt
+mallu@DESKTOP-4AL6BEB:~/cool$ cat name.txt
+hello world
+mallu@DESKTOP-4AL6BEB:~/cool$ cat hp.txt
+hello world
+mallu@DESKTOP-4AL6BEB:~/cool$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+mallu@DESKTOP-4AL6BEB:~/cool$ cat hp.txt
+hello world
+mallu@DESKTOP-4AL6BEB:~/cool$ v1 hp.txt
+-bash: v1: command not found
+mallu@DESKTOP-4AL6BEB:~/cool$ vi hp.txt
+mallu@DESKTOP-4AL6BEB:~/cool$ cat hp.txt
+hello worldne
+line 10
+i am
+am
+i goo
+d  to
+see u
+hi
+good afternoon
+mv
+cd
+linux
+git
+git hub
+hi
+morning
+B
+B
+B
+B
+B
+B
+B
+B
+
+wq
+wqw
+u
+hi
+jji
+jdfjd
+
+fewf
+efefg
+gerg
+regreg
+rger
+rgerg
+greg
+wq
+wq
+
+
+D:\D:\D:\
+erer
+reewr
+erewrwe
+erewr
+er
+rewr
+etewtwetewet
+et
+
+t
+ew
+t
+wet
+
+ewt
+
+ew
+t
+t
+t
+t
+
+B
+B
+B
+
+C
+see
+mallu@DESKTOP-4AL6BEB:~/cool$ head hp.txt
+hello worldne
+line 10
+i am
+am
+i goo
+d  to
+see u
+hi
+good afternoon
+mv
+mallu@DESKTOP-4AL6BEB:~/cool$ tial hp.txt
+-bash: tial: command not found
+mallu@DESKTOP-4AL6BEB:~/cool$ tail hp.txt
+t
+t
+t
+
+B
+B
+B
+
+C
+see
+mallu@DESKTOP-4AL6BEB:~/cool$ man tail
+-bash: man: command not found
+mallu@DESKTOP-4AL6BEB:~/cool$ tac hp.txt
+see
+C
+
+B
+B
+B
+
+t
+t
+t
+t
+ew
+
+ewt
+
+wet
+t
+ew
+t
+
+et
+etewtwetewet
+rewr
+er
+erewr
+erewrwe
+reewr
+erer
+D:\D:\D:\
+
+
+wq
+wq
+greg
+rgerg
+rger
+regreg
+gerg
+efefg
+fewf
+
+jdfjd
+jji
+hi
+u
+wqw
+wq
+
+B
+B
+B
+B
+B
+B
+B
+B
+morning
+hi
+git hub
+git
+linux
+cd
+mv
+good afternoon
+hi
+see u
+d  to
+i goo
+am
+i am
+line 10
+hello worldne
+mallu@DESKTOP-4AL6BEB:~/cool$ cat name.txt
+hello world
+mallu@DESKTOP-4AL6BEB:~/cool$ cat hp.txt
+hello worldne
+line 10
+i am
+am
+i goo
+d  to
+see u
+hi
+good afternoon
+mv
+cd
+linux
+git
+git hub
+hi
+morning
+B
+B
+B
+B
+B
+B
+B
+B
+
+wq
+wqw
+u
+hi
+jji
+jdfjd
+
+fewf
+efefg
+gerg
+regreg
+rger
+rgerg
+greg
+wq
+wq
+
+
+D:\D:\D:\
+erer
+reewr
+erewrwe
+erewr
+er
+rewr
+etewtwetewet
+et
+
+t
+ew
+t
+wet
+
+ewt
+
+ew
+t
+t
+t
+t
+
+B
+B
+B
+
+C
+see
+mallu@DESKTOP-4AL6BEB:~/cool$ diff hp.txt name.txt
+1,72c1
+< hello worldne
+< line 10
+< i am
+< am
+< i goo
+< d  to
+< see u
+< hi
+< good afternoon
+< mv
+< cd
+< linux
+< git
+< git hub
+< hi
+< morning
+< B
+< B
+< B
+< B
+< B
+< B
+< B
+< B
+<
+< wq
+< wqw
+< u
+< hi
+< jji
+< jdfjd
+<
+< fewf
+< efefg
+< gerg
+< regreg
+< rger
+< rgerg
+< greg
+< wq
+< wq
+<
+<
+< D:\D:\D:\
+< erer
+< reewr
+< erewrwe
+< erewr
+< er
+< rewr
+< etewtwetewet
+< et
+<
+< t
+< ew
+< t
+< wet
+<
+< ewt
+<
+< ew
+< t
+< t
+< t
+< t
+<
+< B
+< B
+< B
+<
+< C
+< see
+---
+> hello world
+mallu@DESKTOP-4AL6BEB:~/cool$ ping google.com
+PING google.com (142.250.192.46) 56(84) bytes of data.
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=1 ttl=58 time=51.0 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=2 ttl=58 time=156 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=3 ttl=58 time=85.4 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=4 ttl=58 time=102 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=5 ttl=58 time=119 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=6 ttl=58 time=145 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=7 ttl=58 time=163 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=8 ttl=58 time=282 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=9 ttl=58 time=34.4 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=10 ttl=58 time=67.6 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=11 ttl=58 time=23.8 ms
+^[64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=12 ttl=58 time=22.2 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=13 ttl=58 time=35.8 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=14 ttl=58 time=23.9 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=15 ttl=58 time=44.0 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=16 ttl=58 time=35.6 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=17 ttl=58 time=23.9 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=18 ttl=58 time=54.7 ms
+q64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=19 ttl=58 time=22.6 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=20 ttl=58 time=24.1 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=21 ttl=58 time=23.2 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=22 ttl=58 time=22.9 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=23 ttl=58 time=23.7 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=24 ttl=58 time=23.5 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=25 ttl=58 time=27.4 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=26 ttl=58 time=35.5 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=27 ttl=58 time=24.8 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=28 ttl=58 time=23.0 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=29 ttl=58 time=153 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=30 ttl=58 time=27.2 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=31 ttl=58 time=47.7 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=32 ttl=58 time=24.0 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=33 ttl=58 time=28.1 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=34 ttl=58 time=23.5 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=35 ttl=58 time=26.0 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=36 ttl=58 time=29.0 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=37 ttl=58 time=23.6 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=38 ttl=58 time=421 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=39 ttl=58 time=23.2 ms
+
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=40 ttl=58 time=23.5 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=41 ttl=58 time=23.0 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=42 ttl=58 time=24.9 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=43 ttl=58 time=30.9 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=44 ttl=58 time=23.6 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=45 ttl=58 time=23.0 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=46 ttl=58 time=22.9 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=47 ttl=58 time=24.4 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=48 ttl=58 time=24.6 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=49 ttl=58 time=23.1 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=50 ttl=58 time=23.4 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=51 ttl=58 time=23.3 ms
+64 bytes from bom12s15-in-f14.1e100.net (142.250.192.46): icmp_seq=52 ttl=58 time=23.5 ms
+^Z
+[1]+  Stopped                 ping google.com
+mallu@DESKTOP-4AL6BEB:~/cool$ history
+    1  hi
+    2  wsl shutdown
+    3  wsl
+    4  man
+    5  cat
+    6  touch file.txt
+    7  pwd
+    8  cd
+    9  F:
+   10  cd F:\
+   11  cd
+   12  F:mk dir file
+   13  cd
+   14  F:F:F:
+   15  mk dir "file"
+   16  mkdir :mane"
+   17  ds
+   18  fd
+   19  mk dir
+   20  clear
+   21  cd -/desktop
+   22  pwd
+   23  cd I:cd -cool
+   24  pwd
+   25  cd /documents
+   26  cd /
+   27  pwd
+   28  cd ~
+   29  pwd
+   30  cd ..
+   31  pwd
+   32  cd ~
+   33  pwd
+   34  cd /
+   35  cd D:q
+   36  cd D:cd /Git-p
+   37  pwd
+   38  cd D;cd/git-p
+   39  cd d:cd \git-p
+   40  cd d:\git-p
+   41  clera
+   42  clear
+   43  mkdir Linux
+   44  pwd
+   45  mkdir "cool"
+   46  cd~
+   47  cd ~
+   48  mk dir cool
+   49  mkdir cool
+   50  cd cool
+   51  ls
+   52  touch linux.txt
+   53  ls
+   54  cd \
+   55  cdD:pwd
+   56  cd /
+   57  pwd
+   58  cd ~
+   59  cd cool
+   60  cat name.txt
+   61  cat>name.txt
+   62  cat name.txt
+   63  ls
+   64  cat linux.txt name.txt>foxmerge.txt
+   65  ls
+   66  ls *.txt
+   67  pwd
+   68  cat hp.txt
+   69  cat>hp.txt
+   70  cp name.txt hp.txt
+   71  cat name.txt
+   72  cat hp.txt
+   73  mkdir
+   74  cat hp.txt
+   75  v1 hp.txt
+   76  vi hp.txt
+   77  cat hp.txt
+   78  head hp.txt
+   79  tial hp.txt
+   80  tail hp.txt
+   81  man tail
+   82  tac hp.txt
+   83  cat name.txt
+   84  cat hp.txt
+   85  diff hp.txt name.txt
+   86  ping google.com
+   87  history
+mallu@DESKTOP-4AL6BEB:~/cool$ display hostname
+-bash: display: command not found
+mallu@DESKTOP-4AL6BEB:~/cool$ hostname
+DESKTOP-4AL6BEB
+mallu@DESKTOP-4AL6BEB:~/cool$ hostname -I
+192.168.56.1 192.168.0.103
+mallu@DESKTOP-4AL6BEB:~/cool$ ls
+foxmerge.txt  hp.txt  linux.txt  name.txt
+mallu@DESKTOP-4AL6BEB:~/cool$ nl hp.txt
+     1  hello worldne
+     2  line 10
+     3  i am
+     4  am
+     5  i goo
+     6  d  to
+     7  see u
+     8  hi
+     9  good afternoon
+    10  mv
+    11  cd
+    12  linux
+    13  git
+    14  git hub
+    15  hi
+    16  morning
+    17  B
+    18  B
+    19  B
+    20  B
+    21  B
+    22  B
+    23  B
+    24  B
+
+    25  wq
+    26  wqw
+    27  u
+    28  hi
+    29  jji
+    30  jdfjd
+
+    31  fewf
+    32  efefg
+    33  gerg
+    34  regreg
+    35  rger
+    36  rgerg
+    37  greg
+    38  wq
+    39  wq
+
+
+    40  D:\D:\D:\
+    41  erer
+    42  reewr
+    43  erewrwe
+    44  erewr
+    45  er
+    46  rewr
+    47  etewtwetewet
+    48  et
+
+    49  t
+    50  ew
+    51  t
+    52  wet
+
+    53  ewt
+
+    54  ew
+    55  t
+    56  t
+    57  t
+    58  t
+
+    59  B
+    60  B
+    61  B
+
+    62  C
+    63  see
+mallu@DESKTOP-4AL6BEB:~/cool$ wc hp.txt
+ 72  71 310 hp.txt
+mallu@DESKTOP-4AL6BEB:~/cool$
